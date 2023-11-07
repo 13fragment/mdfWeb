@@ -27,6 +27,46 @@
             </ul>
         </div>
 </header>
+<form action="https://www.bing.com/" method="get">
+    <h1 class="form__title">Partnership info</h1>
+    <div class="form__group">
+        <input name="company-name" type="text" class="form__input" value="targo">
+        <label class="form__label">Company name</label>
+    </div>
+    <div class="form__group">
+        <input name="workers" type="number" class="form__input" value="30">
+        <label class="form__label">Amount of workers</label>
+    </div>
+    <div class="form__group">
+        <label class="form__label">Choose staff role:</label>
+        <p>Manager
+        <input name="role" type="radio" class="form__input" value="manager">
+        Designer<input name="role" type="radio" class="form__input" value="designer"></p>
+    </div>
+    <div class="form__group">
+        <label class="form__label">Choose catalogue:</label>
+        <p>indoor
+            <input name="catalogue" type="checkbox" class="form__input" value="indoor">
+            outdoor<input name="catalogue" type="checkbox" class="form__input" value="outdoor"></p>
+    </div>
+    <div class="form__group">
+        <input name="date" value="2000-01-01" type="date" class="form__input">
+        <label class="form__label">Date</label>
+    </div>
+    <div class="form__group">
+        <input name="password" type="password" class="form__input" value="12345">
+        <label class="form__label">Password for login</label>
+    </div>
+    <div class="form__group">
+        <input name="contacting-id" type="hidden" value="123">
+    </div>
+    <div class="form__group">
+        <p>
+            <input type="submit" name="submit" value="send">
+            <input type="reset" name="reset" value="reload">
 
+        </p>
+    </div>
+</form>
 </body>
 </html>
