@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto Condensed",sans-serif;
+    width: 100%;
+    justify-content:space-around;
+}
+.container__element{
+    align-items: center;
+    width: 550px;
+}
+.container__element h3{
+    text-transform: uppercase;
+    padding-left: 2vw;
+}
+.container__element p{
+    letter-spacing: 0.8px;
+    padding-left: 2vw;
+}
