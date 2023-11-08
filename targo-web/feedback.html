@@ -28,5 +28,44 @@
         </div>
 </header>
 
+<!-- фамилия, имя, мобильный телефон, электронка, дата отправки сообщения);
+ -->
+ <form action="https://www.bing.com/" method="get" required>
+    <h1 class="form__title">Feedback Form</h1>
+    <div class="form__group">
+        <input name="surname" type="text" class="form__input" required>
+        <label class="form__label">Surame</label>
+    </div>
+    <div class="form__group">
+        <input name="name" type="text" class="form__input" required>
+        <label class="form__label">Name</label>
+    </div>
+    <div class="form__group">
+        <input name="name" type="number" class="form__input" required>
+        <label class="form__label">Quality assessment (1-5)</label>
+    </div>
+    <div class="form__group">
+        <input name="phone-number" type="number" class="form__input" required>
+        <label class="form__label">Phone number</label>
+    </div>
+    <div class="form__group">
+        <input name="date" type="datetime-local" class="form__input" required>
+        <label class="form__label">Date</label>
+    </div>
+    <div class="form__group">
+        <input name="email" type="email" class="form__input" required>
+        <label class="form__label">Email</label>
+    </div>
+    <div class="form__group">
+        <input name="contacting-id" type="hidden" value="888">
+    </div>
+    <div class="form__group">
+        <p>
+            <input type="submit" name="submit" value="send">
+            <input type="reset" name="reset" value="reload">
+
+        </p>
+    </div>
+</form>
 </body>
 </html>
